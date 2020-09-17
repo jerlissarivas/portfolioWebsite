@@ -30,16 +30,16 @@ img {
   color: #fff;
 }
 
-#about {
+/* #about {
   padding: 7% 15%;
-  background-color: #ecebe8;
-}
+  background-color: red;
+} */
 
-#projects {
+/* #projects {
   padding: 15%;
   background-color: #79baa0;
   color: #fff;
-}
+} */
 
 #contact {
   padding: 15%;
@@ -48,4 +48,9 @@ img {
 
 .title-text {
   font-family: "Sacramento", cursive;
+}
+
+.colored-section {
+  padding: 7% 15%;
+  background-color: #ecebe8;
 }
