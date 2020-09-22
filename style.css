@@ -35,11 +35,9 @@ img {
   background-color: red;
 } */
 
-/* #projects {
-  padding: 15%;
-  background-color: #79baa0;
-  color: #fff;
-} */
+#projects {
+  padding: 100px;
+}
 
 #contact {
   padding: 15%;
@@ -53,4 +51,13 @@ img {
 .colored-section {
   padding: 7% 15%;
   background-color: #ecebe8;
+}
+
+.project-column {
+  padding: 3% 2%;
+}
+
+#projects img {
+  width: 200px;
+  height: 200px;
 }
