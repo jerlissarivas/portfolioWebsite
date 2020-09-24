@@ -18,6 +18,13 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/58a80aa2b8.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Jerlissa Rivas Portfolio</title>
   </head>
   <body>
@@ -63,24 +70,34 @@
       experiences have allowed me to build strong critical thinking and
       analytical skills while working collaboratively and in high stress
       environments.
+      <i class="fab fa-node"></i>
     </section>
 
-    <!-- Practice Card Section for Projects -->
+    <!-- Card Section for Projects -->
 
     <section id="projects">
       <div class="row">
         <div class="col-lg-4 project-column">
           <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap" />
+            <img
+              class="card-img-top"
+              src="./project1img.png"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title">Super Santa</h5>
               <p class="card-text">
                 Game inspired by Nintendo's classic Super Mario, with a holiday
                 twist.
               </p>
+              <br />
               <p>
-                <em>Technologies used: JavaScript, CSS, HTML, Canvas</em>
+                <em class="tech-font"
+                  >Technologies used: JavaScript, CSS, HTML, Canvas</em
+                >
               </p>
+              <br />
+              <br />
               <a
                 href="https://jerlissarivas.github.io/projectOne/"
                 class="btn btn-primary"
@@ -92,7 +109,11 @@
 
         <div class="col-lg-4 project-column">
           <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap" />
+            <img
+              class="card-img-top"
+              src="./project2img.png"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title">ConnectPro</h5>
               <p class="card-text">
@@ -100,7 +121,7 @@
                 your personal and professional network.
               </p>
               <p>
-                <em
+                <em class="tech-font"
                   >Technologies used: Node.js, Express.js, MongoDB, Passport.js,
                   Bootstrap, Handlebars, REST API, GitHub, Heroku</em
                 >
@@ -114,7 +135,11 @@
 
         <div class="col-lg-4 project-column">
           <div class="card">
-            <img class="card-img-top" src="./project1img.png" alt="Card image cap" />
+            <img
+              class="card-img-top"
+              src="./project3img.png"
+              alt="Card image cap"
+            />
             <div class="card-body">
               <h5 class="card-title">tripUp</h5>
               <p class="card-text">
@@ -122,7 +147,7 @@
                 and details stored in one simple application.
               </p>
               <p>
-                <em
+                <em class="tech-font"
                   >Technologies used: Node.js, Express.js, MongoDB, Passport.js,
                   Material UI, CSS, ReactJS, GitHub, Heroku, Netlify</em
                 >
@@ -136,8 +161,20 @@
       </div>
     </section>
 
-    <!-- <section id="projects">Projects Section Here</section> -->
-    <section id="contact">Contact Footer Here</section>
+    <footer id="contact" class="white-section">
+      <div class="container-fluid">
+        <a href="https://github.com/jerlissarivas"
+          ><i class="contact-icon fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jerlissarivas/"
+          ><i class="contact-icon fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:jerlissa.rivas@gmail.com"
+          ><i class="contact-icon fas fa-envelope"></i
+        ></a>
+        <p>© 2020 Jerlissa Rivas</p>
+      </div>
+    </footer>
 
     <!-- Bootstrap Scripts -->
     <script
