@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   background-color: #79baa0;
+  text-align: center;
   margin: 0px;
   padding: 0px;
 }
@@ -30,17 +31,17 @@ img {
   color: #fff;
 }
 
-/* #about {
-  padding: 7% 15%;
-  background-color: red;
-} */
+#about {
+  padding: 15% 15%;
+  background-color: #ecebe8;
+}
 
 #projects {
   padding: 100px;
 }
 
 #contact {
-  padding: 15%;
+  padding: 5% 15%;
   background-color: #ecebe8;
 }
 
@@ -58,6 +59,15 @@ img {
 }
 
 #projects img {
-  width: 200px;
+  width: 325px;
   height: 200px;
+  padding-top: 20px;
 }
+
+.contact-icon {
+  margin: 20px 10px;
+}
+
+.tech-font {
+  font-size: 0.8rem;
+ }
