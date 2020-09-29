@@ -32,7 +32,7 @@ img {
 }
 
 #about {
-  padding: 15% 15%;
+  padding: 7% 15%;
   background-color: #ecebe8;
 }
 
@@ -70,4 +70,8 @@ img {
 
 .tech-font {
   font-size: 0.8rem;
+}
+
+.mern-stack {
+  padding: 2%;
 }
