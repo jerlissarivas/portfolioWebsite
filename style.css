@@ -17,7 +17,7 @@ img {
   text-align: center;
   margin: auto;
   display: block;
-  filter: drop-shadow(0.2px 0.2px 2px #eadbd7);
+  filter: drop-shadow(2px 4px 8px #585858);
 }
 
 .title {
